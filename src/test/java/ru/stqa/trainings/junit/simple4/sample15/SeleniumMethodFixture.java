@@ -15,7 +15,7 @@ public class SeleniumMethodFixture {
     protected void before() throws Throwable {
       System.out.println("Starting a browser");
       driver = new ChromeDriver();
-    };
+    }
 
     @Override
     protected void after() {
@@ -23,7 +23,7 @@ public class SeleniumMethodFixture {
       if (driver != null) {
         driver.quit();
       }
-    };
+    }
   };
 
 }

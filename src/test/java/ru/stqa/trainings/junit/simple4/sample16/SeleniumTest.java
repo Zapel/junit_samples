@@ -13,5 +13,4 @@ public class SeleniumTest extends SeleniumClassFixture {
   public void test2() {
     driver.get("http://selenium2.ru/");
   }
-
 }
